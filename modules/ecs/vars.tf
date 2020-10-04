@@ -81,3 +81,7 @@ variable "cw_retention_in_days_front" {
 variable "cw_retention_in_days_back" {
   type = string
 }
+
+variable "aws_alb_depends_on" {
+  type = string
+}

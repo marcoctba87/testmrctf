@@ -17,3 +17,7 @@ output "aws_alb_dns_name" {
 output "aws_alb_dns_zone_id" {
   value = aws_lb.alb.zone_id
 }
+
+output "aws_alb_depends_on" {
+  value = aws_lb.alb.arn
+}

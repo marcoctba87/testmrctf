@@ -9,7 +9,7 @@ locals {
 # Service do frontend
 
 resource "aws_ecs_service" "ecs_service_front" {
-#  depends_on    = [var.listener_https_depends_on]
+  depends_on    = [var.aws_alb_depends_on]
   name          = local.service_name_front
   cluster       = aws_ecs_cluster.ecs_cluster.name
   desired_count = var.ecs_service_front_desired_count
@@ -32,7 +32,7 @@ resource "aws_ecs_service" "ecs_service_front" {
 # Service do backend
 
 resource "aws_ecs_service" "ecs_service_back" {
-#  depends_on    = [var.listener_https_depends_on]
+  depends_on    = [var.aws_alb_depends_on]
   name          = local.service_name_back
   cluster       = aws_ecs_cluster.ecs_cluster.name
   desired_count = var.ecs_service_back_desired_count

@@ -59,6 +59,7 @@ module "ecs" {
   image_url_back = local.workspace["image_url_back"]
   cw_retention_in_days_front = local.workspace["cw_retention_in_days_front"]
   cw_retention_in_days_back = local.workspace["cw_retention_in_days_back"]
+  aws_alb_depends_on = module.ec2.aws_alb_depends_on
 }
 
 # Variaveis do modulo Route53
