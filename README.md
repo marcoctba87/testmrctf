@@ -1,4 +1,4 @@
-# DockerAPPwithAWS+TF
+# Back + Front App Terraform 
 
 ## Descrição
 
@@ -14,13 +14,19 @@ O objetivo deste projeto e criar a infraestrutura em cloud AWS para rodar uma ap
 
 ##### Build das Aplicações backend e frontend
 
-Para o build das imagens de backend e frontend foi utilizado o Azure DevOps
+Para o build das imagens de backend e frontend foi utilizado o Azure DevOps.
+
+Para o deploy da infra através do terraform, foi orquestrado também através do Azure DevOps.
+
+Maiores informções pode ser verificadas no link abaixo:
+
+[Documentação Auxiliar](Projeto_Terraform_AWS.docx)
 
 ##### Terraform
 
 Foi desenvolvido o terraform utilizando o conceito de modularização, e para controle de ambientes foi utilizado o conceito de Workspace.
 
-Para deploy da infra utilizando o terraform, foi orquestrado através do Azure DevOps.
+![](tree.png)
 
 ## Roadmap
 
