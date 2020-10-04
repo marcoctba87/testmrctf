@@ -20,13 +20,13 @@ Para o deploy da infra através do terraform, foi orquestrado também através d
 
 Maiores informções pode ser verificadas no link abaixo:
 
-[Documentação Auxiliar](Projeto_Terraform_AWS.docx)
+[Documentação Auxiliar](images/Projeto_Terraform_AWS.docx)
 
 ### Terraform
 
 Foi desenvolvido o terraform utilizando o conceito de modularização, e para controle de ambientes foi utilizado o conceito de Workspace.
 
-![](tree.png)
+![](images/tree.png)
 
 ## Roadmap
 
