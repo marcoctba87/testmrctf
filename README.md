@@ -4,7 +4,7 @@
 
 O objetivo deste projeto e criar a infraestrutura em cloud AWS para rodar uma aplicação com frontend e backend hipotética. No frontend ira rodar uma instância de imagem docker e no backend 2 instâncias de imagem docker.
 
-##### Recursos utilizados AWS
+### Recursos utilizados AWS
 
 - Route 53
 - Application Load Balancer
@@ -12,7 +12,7 @@ O objetivo deste projeto e criar a infraestrutura em cloud AWS para rodar uma ap
 - ECR
 - VPC (Novas Subnets)
 
-##### Build das Aplicações backend e frontend
+### Build das Aplicações backend e frontend
 
 Para o build das imagens de backend e frontend foi utilizado o Azure DevOps.
 
@@ -22,7 +22,7 @@ Maiores informções pode ser verificadas no link abaixo:
 
 [Documentação Auxiliar](Projeto_Terraform_AWS.docx)
 
-##### Terraform
+### Terraform
 
 Foi desenvolvido o terraform utilizando o conceito de modularização, e para controle de ambientes foi utilizado o conceito de Workspace.
 
