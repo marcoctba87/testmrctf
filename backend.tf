@@ -8,7 +8,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket  = "terraform-states-mrc"
+    bucket  = "<bucket_name>"
     key     = "test-mrc/terraform.tfsate"
     region  = "us-east-1"
     profile = "my-profile"
